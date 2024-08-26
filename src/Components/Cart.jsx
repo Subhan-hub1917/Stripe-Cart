@@ -36,7 +36,7 @@ const Cart = () => {
         const headers={
             "Content-Type":"application/json"
         }
-        const response= await fetch('http://localhost:5000/checkout-session',{
+        const response= await fetch('https://stripe-backend-git-main-subhan-hub1917s-projects.vercel.app/checkout-session',{
             method:'POST',
             headers:headers,
             body:JSON.stringify(body)
